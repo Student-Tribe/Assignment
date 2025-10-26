@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hari's Smart To-Do App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="app-container">
+      <header>
+        <h1><span>📝</span> Hari’s To-Do App</h1>
+        <p class="subtitle">Plan smart. Achieve more.</p>
+      </header>
+
+      <div class="stats-box">
+        <div class="progress-container">
+          <div class="progress-bar" id="progress"></div>
+        </div>
+        <div class="count-circle" id="numbers">0/0</div>
+      </div>
+
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Add your next task..." />
+        <button type="submit" id="addTask">+</button>
+      </form>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
